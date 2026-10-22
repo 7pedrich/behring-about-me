@@ -135,3 +135,8 @@ ol {
 .hobbies-prefix {
     padding-right: 2vw;
 }
+
+main {
+    max-width: 60vw;
+    align-items: left;
+}
