@@ -15,6 +15,7 @@ body {
 .profile-image {
     margin-inline: auto;
     max-height: 16.6667vh;
+    max-width: 16.6667vw;
     border: 5px solid #000000;
     filter: sepia(50%);
     display: block;
@@ -139,6 +140,8 @@ ol {
 }
 
 main {
-    max-width: 70vw;
-    margin-inline: 10px;
+    max-width: 97vw;
+    margin-inline: auto;
+    margin: 0 auto;
+    text-align: left;
 }
