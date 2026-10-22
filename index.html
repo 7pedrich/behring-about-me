@@ -3,86 +3,98 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
     <link rel="stylesheet" href="styles.css">
     <title>Pedrich</title>
 </head>
 
 <body>
-    <h1 class="header-title"><u>Sobre Mim:</u> Pedro Andrade</h1>
-    <img class="profile-image" src="pedro.jpg" alt="Eu :-D"></img>
+    <span class="header">
+        <h1 id="header-title"><u>Sobre Mim:</u> Pedro Andrade</h1>
+        <div class="profile-image-parent">
+            <img class="profile-image" src="pedro.jpg" alt="Eu :-D"></img>
+        </div>
+    </span>
 
-    <h2 style="font-family: Arial, Helvetica, sans-serif">Quem sou?</h2>
+    <h2>Quem sou?</h2>
 
-    <div class="who-am-i">
-        <p style="font-family: Arial, Helvetica, sans-serif">
-            Saudações, me chamo Pedro Andrade, tenho 15 anos e nasci no Distrito Federal.
-        </p>
+    <span class="main">
+        <div class="who-am-i">
+            <p>
+                Saudações, me chamo Pedro Andrade, tenho 15 anos e nasci no Distrito Federal.
+            </p>
 
-        <p style="font-family: Arial, Helvetica, sans-serif">
-            Porém hoje em dia moro no Pará, em Canaã dos Carajás, cidade da mineradora Vale.
-        </p>
+            <p>
+                Porém hoje em dia moro no Pará, em Canaã dos Carajás, cidade da mineradora Vale.
+            </p>
 
-        <p style="font-family: Arial, Helvetica, sans-serif">
-            Faço o 2° ano do Ensino Médio, (1 ano adiantado) no Centro Educacional Primeiro Mundo (CEPM)
-        </p>
+            <p>
+                Faço o 2° ano do Ensino Médio, (1 ano adiantado) no Centro Educacional Primeiro Mundo (CEPM)
+            </p>
 
-        <p style="font-family: Arial, Helvetica, sans-serif">
-            Eu já construí vários projetos, desde simuladores até jogos e ferramentas.
-        </p>
+            <p>
+                Eu já construí vários projetos, desde simuladores até jogos e ferramentas.
+            </p>
 
-        <p style="font-family: Arial, Helvetica, sans-serif">
-            Sou Mestre Nacional (NM) em Xadrez, nomeado com 14 anos pela CBX (Confederação Brasileira de Xadrez)
-        </p>
-    </div>
+            <p>
+                Sou Mestre Nacional (NM) em Xadrez, nomeado com 14 anos pela CBX (Confederação Brasileira de Xadrez)
+            </p>
+        </div>
 
-    
 
-    <h2 style="font-family: Arial, Helvetica, sans-serif">Criações</h2>
+        <h2>Criações</h2>
 
-    <div class="creations">
-        <ul class="creation-list">
-            <li>Jogo semi-completo de Xadrez <a class="github-link" href="https://github.com/7pedrich/mandioca" target="_blank" rel="noopener noreferrer">
-                [GitHub] <img src="icons/github.svg" class="icone-lista-1" />
-            </a></li>
-            <li>Visualizador de Algoritmos de Ordenação <a class="github-link" href="https://github.com/7pedrich/sav" target="_blank" rel="noopener noreferrer">
-                [GitHub] <img src="icons/github.svg" class="icone-lista-1" />
-            </a></li>
-            <li>Simulador de Circuitos Lógicos <a class="github-link" href="https://github.com/7pedrich/circuitry-simulator" target="_blank" rel="noopener noreferrer">
-                [GitHub] <img src="icons/github.svg" class="icone-lista-1" />
-            </a></li>
-            <li>Campo Minado Customizável<a class="github-link" href="https://github.com/7pedrich/minesweeper" target="_blank" rel="noopener noreferrer">
-                [GitHub] <img src="icons/github.svg" class="icone-lista-1" />
-            </a></li>
-        </ul>
-    </div>
+        <div class="creations">
+            <ul class="creation-list">
+                <li>Jogo semi-completo de Xadrez <a class="github-link" href="https://github.com/7pedrich/mandioca"
+                        target="_blank" rel="noopener noreferrer">
+                        [GitHub] <img src="icons/github.svg" class="icone-lista-1" />
+                    </a></li>
+                <li>Visualizador de Algoritmos de Ordenação <a class="github-link"
+                        href="https://github.com/7pedrich/sav" target="_blank" rel="noopener noreferrer">
+                        [GitHub] <img src="icons/github.svg" class="icone-lista-1" />
+                    </a></li>
+                <li>Simulador de Circuitos Lógicos <a class="github-link"
+                        href="https://github.com/7pedrich/circuitry-simulator" target="_blank"
+                        rel="noopener noreferrer">
+                        [GitHub] <img src="icons/github.svg" class="icone-lista-1" />
+                    </a></li>
+                <li>Campo Minado Customizável<a class="github-link" href="https://github.com/7pedrich/minesweeper"
+                        target="_blank" rel="noopener noreferrer">
+                        [GitHub] <img src="icons/github.svg" class="icone-lista-1" />
+                    </a></li>
+            </ul>
+        </div>
 
-    <h2 style="font-family: Arial, Helvetica, sans-serif">Hobbies</h2>
+        <h2>Hobbies</h2>
 
-    <div class="hobbies">
-        <p style="font-family: Arial, Helvetica, sans-serif">
-            Eu gosto muito de programação, xadrez, piano e tênis de mesa.
-        </p>
-        <p style="font-family: Arial, Helvetica, sans-serif">
-            E como a vida é só uma, eu sempre gosto de explorar e viver ao máximo, em todos os ângulos
-        </p>
-    </div>
+        <div class="hobbies">
+            <p>
+                Eu gosto muito de <span class="coding">programação</span>, <span class="chess">xadrez</span>, <span class="piano">piano</span> e <span class="pingpong">tênis de mesa</span>.
+            </p>
+            <p>
+                E como a vida é só uma, eu sempre gosto de explorar e viver ao máximo, em todos os ângulos
+            </p>
+        </div>
 
-    <h2 style="font-family: Arial, Helvetica, sans-serif">Objetivos</h2>
+        <h2>Objetivos</h2>
 
-    <div class="objectives">
-        <ul class="objective-list">
-            <li>Ganhar 6.5/9 ou mais no campeonato brasileiro de Xadrez</li>
-            <li>Tirar 800+ de média no ENEM</li>
-            <li>Não faltar a academia por mais de 3 dias líquidos pro resto do ano</li>
-            <li>Conseguir alcançar 2700 de rating de novo no Bullet</li>
-        </ul>
-    </div>
+        <div class="objectives">
+            <ol class="objective-list">
+                <li>Ganhar 6.5/9 ou mais no campeonato brasileiro de Xadrez</li>
+                <li>Tirar 800+ de média no ENEM</li>
+                <li>Não faltar a academia por mais de 3 dias líquidos pro resto do ano</li>
+                <li>Conseguir alcançar 2700 de rating de novo no Bullet</li>
+            </ol>
+        </div>
 
-    <hr></hr>
+        <hr>
+        </hr>
 
-    <p id="ideal" style="font-family: Arial, Helvetica, sans-serif">É isso por enquanto! Aqui estão minhas socials se vc quiser</p>
+        <p id="ideal">Aqui estão minhas socials se você quiser (abre
+            em nova aba)</p>
+    </span>
 
     <footer class="rodape-fixo">
         <div class="links-externos">
@@ -97,10 +109,9 @@
                 rel="noopener norefererrer">
                 Instagram <img src="icons/instagram.svg" alt="" class="icone" />
             </a>
-
-
         </div>
         <p>&copy; 2026 Pedro Andrade</p>
     </footer>
 </body>
+
 </html>
