@@ -9,6 +9,7 @@ body {
     background-color:floralwhite;
     font-family: Arial, Helvetica, sans-serif;
     color: #000000;
+    align-items: horizontal;
 }
 
 .profile-image {
@@ -34,6 +35,10 @@ body {
 
 p {
     line-height: 1.2;
+}
+
+h1 {
+    line-height: 1;
 }
 
 h2 {
@@ -137,6 +142,5 @@ ol {
 }
 
 main {
-    max-width: 60vw;
-    align-items: horizontal;
+    margin-inline: auto;
 }
