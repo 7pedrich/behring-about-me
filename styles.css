@@ -13,19 +13,16 @@ body {
 }
 
 .profile-image {
-    max-width: 16.6667vw;
+    margin-inline: auto;
     max-height: 16.6667vh;
     border: 5px solid #000000;
     filter: sepia(50%);
-    position: absolute;
-    margin-top: 29vh;
+    display: block;
 }
 
 .profile-image-parent {
     max-width: 16.6667vw;
     max-height: 16.6667vh;
-    position: relative;
-    margin-left: 27vw;
 }
 
 .icone {
