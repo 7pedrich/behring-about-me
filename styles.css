@@ -1,0 +1,95 @@
+.header-title {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(104, 47, 0, 0.856);
+    color: white;
+}
+
+body {
+    background-color:floralwhite;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.profile-image {
+    max-width: 48%;
+    max-height: 27%;
+    border: 5px solid #000000;
+    position: absolute;
+    left: 72%;
+}
+
+.icone {
+    max-width: 1%;
+    max-height: 1%;
+}
+
+p {
+    line-height: 0.6;
+}
+
+h2 {
+    color: darkolivegreen;
+}
+
+.who-am-i {
+    outline: 2px solid #00000054;
+    outline-style: dotted;
+    max-width: 88ch;
+    outline-offset: 4px;
+}
+
+.creations {
+    outline: 2px solid #00000054;
+    outline-style: dotted;
+    padding-left: .3%;
+    max-width: 45ch;
+    outline-offset: 4px;
+}
+
+.creation-list {
+    max-width: 49ch;
+    padding-left: inherit;
+}
+
+.objectives {
+    outline: 2px solid #00000054;
+    outline-style: dotted;
+    max-width: 57ch;
+    outline-offset: 4px;
+}
+
+.objective-list {
+    padding-left: 3.5%;
+    list-style-type: inherit;
+}
+
+.creation-list {
+    padding-left: 3.5%;
+    list-style-type: lower-greek;
+}
+
+.hobbies {
+    outline: 2px solid #00000054;
+    outline-style: dotted;
+    max-width: 76ch;
+    outline-offset: 4px;
+}
+
+.objective-list {
+    list-style: square !important;
+    list-style-type: square;
+    list-style-position: outside;
+    padding-left: 20px;
+}
+
+#ideal {
+    outline: 2px solid #00000054;
+    outline-style: dotted;
+    max-width: 48ch;
+    outline-offset: 4px;
+}
+
+.icone-lista-1 {
+    max-width: 15px;
+    max-height: 15px;
+}
