@@ -32,14 +32,18 @@ body {
 }
 
 p {
+    font-size: medium;
     line-height: 1.2;
+    color: #000000;
 }
 
 h1 {
+    font-size: xx-large;
     line-height: 1;
 }
 
 h2 {
+    font-size: x-large;
     line-height: 1.2;
     color: darkolivegreen;
 }
